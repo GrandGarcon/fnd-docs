@@ -1,20 +1,20 @@
 const path = require("path");
 
 module.exports = {
-  title: "Foundation",
+  title: "Atelio",
   tagline:
-    "Help us build a new creative economy on the Ethereum network. The infrastructure is open, permissionless, and transparent.",
-  url: "https://fnd.dev",
+    "Help us create the future of labeling Good Quality 3d printed products onchain ",
+  url: "https://docs.Atelio.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/fnd.svg",
-  organizationName: "f8n", // Your GitHub org name.
-  projectName: "f8n-contracts", // Your repo name.
+  organizationName: "AtelierL2", // Your GitHub org name.
+  projectName: "AM-NFT-Contracts", // Your repo name.
   themeConfig: {
     navbar: {
       logo: {
-        alt: "Foundation Logo",
+        alt: "Atelio App info",
         src: "img/fnd.svg",
       },
       items: [
@@ -25,12 +25,12 @@ module.exports = {
           position: "left",
         },
         {
-          to: "https://discord.foundation.app",
+          to: "https://discord.gg/CKWWzgv8",
           label: "Discord",
           position: "left",
         },
         {
-          href: "https://github.com/f8n",
+          href: "https://github.com/AtelierL2",
           label: "GitHub",
           position: "right",
         },
@@ -78,7 +78,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `foundation.app`,
+      copyright: `Atelio.app`,
     },
   },
   presets: [
@@ -88,7 +88,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/f8n/f8n-docs/edit/main/",
+          editUrl: "https://github.com/AtelierL2/Atelio-docs/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

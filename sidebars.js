@@ -1,5 +1,5 @@
 module.exports = {
   someSidebar: {
-    Foundation: ['intro', 'fnd-subgraph', 'subgraph-examples', 'contracts', 'fnd.js', 'nfte', 'community-proposals'],
+    Foundation: ['intro', 'Atelio-subgraph', 'Atelio-examples', 'contracts', 'AM.js', 'nfte', 'community-proposals'],
   },
 };
